@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Est-ce que je vais perdre de l'argent en changeant de tranche d'imposition
+      ?
+    </title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="text-center mt-5">
+          <h1>
+            Est-ce que je vais perdre de l'argent en changeant de tranche
+            d'imposition ?
+          </h1>
+          <h2><strong>Non</strong></h2>
+        </div>
+
+        <h3>Pourquoi ?</h3>
+        <p>
+          Seul le revenu qui dépasse le seuil d'une tranche est soumis au taux
+          d'imposition de celle-ci.
+        </p>
+
+        <h3>Le barême</h3>
+        Le barème applicable aux revenus de 2022 est le suivant (<a
+          href="https://www.service-public.fr/particuliers/vosdroits/F1419"
+          >service-public.fr</a
+        >) :
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Tranche de revenus</th>
+              <th scope="col">Taux d'imposition de la tranche de revenu</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jusqu'à 10 777 €</td>
+              <td>0 %</td>
+            </tr>
+            <tr>
+              <td>De 10 778 € à 27 478 €</td>
+              <td>11 %</td>
+            </tr>
+            <tr>
+              <td>De 27 479 € à 78 570 €</td>
+              <td>30 %</td>
+            </tr>
+            <tr>
+              <td>De 78 571 € à 168 994 €</td>
+              <td>41 %</td>
+            </tr>
+            <tr>
+              <td>Plus de 168 994 €</td>
+              <td>45 %</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Exemple</h3>
+
+        <p>
+          En 2022, Gabriel a perçu 27 000 €, il est donc imposé à 0 % pour ses
+          revenus dans la première tranche (jusqu'à 10 777 €) et à 11 % pour ses
+          revenus dans la seconde tranche (entre 10 778 € et 27 478 €). Le
+          montant de son impôt sera donc de 10 777 € × 0 % + (27 000 € - 10 778
+          €) × 11 % = 1784 €. Après impôt il restera 27 000 € - 1784 € = 25 216
+          € à Gabriel.
+        </p>
+        <p>
+          En 2022, Louise a perçu 28 000 €, elle sera donc imposée à 0 % pour
+          ses revenus dans la première tranche, 11 % pour ceux dans la deuxième
+          tranche et 30 % pour ceux dans la troisième tranche (entre 27 479 € et
+          78 570 €). Le montant de son impôt sera donc de 10 777 € × 0 % + (27
+          478 € - 10 778 €) × 11 % + (28 000 € - 27 479 €) × 30 % = 1993 €.
+          Après impôt il restera 28 000 € - 1993 € = 26007 € à Louise.
+        </p>
+        <p>
+          Les revenus de Gabriel atteignent la seconde tranche, on dit qu'il a
+          un taux marginal d'imposition (TMI) de 11 %. Les revenus de Louise
+          atteignent la troisième tranche, on dit qu'elle a un taux marginal
+          d'imposition de 30 %.
+          <strong
+            >Bien que Louise soit dans une "tranche supérieure", elle possède
+            791 € de plus que Gabriel après impôt.</strong
+          >
+        </p>
+
+        <h3>Conclusion</h3>
+        <p>
+          Ne refusez pas une augmentation, car celle-ci vous ferait "changer" de
+          tranche : plus vous gagnez d'argent avant impôt, plus vous en gagnerez
+          après impôts.
+        </p>
+
+        <h3>Cas particuliers</h3>
+        <p>
+          L'exemple ci-dessus ne prend pas en compte les aides sociales (APL,
+          prime d'activité, etc.) ni les situations plus complexes qui pourrait
+          donner droits à des réductions d'impôts sur la base des revenus. Dans
+          le doute, utilisez le
+          <a href="https://www.impots.gouv.fr/simulateurs"
+            >simulateur de l'impôt sur le revenu</a
+          >
+          et le
+          <a href="https://www.mesdroitssociaux.gouv.fr/accueil/"
+            >simulateur de droits sociaux</a
+          >
+          fourni par le gouvernement.
+        </p>
+      </div>
+    </main>
+    <footer class="footer mt-3 py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">
+          Le code source de cette page est disponible sur
+          <a href="https://github.com/maxmouchet/impots">GitHub</a>.
+        </span>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
